@@ -5,8 +5,8 @@ import { CHAT_HEADER, CLEAR_BUTTON_TEXT } from "@/configuration/ui";
 import { AI_NAME } from "@/configuration/identity";
 
 export const AILogo = () => (
-  <div className="w-[350px] h-[100px] relative">
-    <Image src="/Smart.png" alt={AI_NAME} width={700} height={100} />
+  <div className="w-[350px] h-[50px] relative">
+    <Image src="/Smart.png" alt={AI_NAME} width={350} height={50} />
     <div className="w-2 h-2 rounded-full bg-green-500 absolute -bottom-0.5 -right-0.5"></div>
   </div>
 );
