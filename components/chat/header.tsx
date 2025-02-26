@@ -6,7 +6,7 @@ import { AI_NAME } from "@/configuration/identity";
 
 export const AILogo = () => (
   <div className="w-12 h-12 relative">
-    <Image src="/blue pencil.png" alt={AI_NAME} width={48} height={48} />
+    <Image src="/smarttax.png" alt={AI_NAME} width={350} height={50} />
     <div className="w-2 h-2 rounded-full bg-green-500 absolute -bottom-0.5 -right-0.5"></div>
   </div>
 );
@@ -22,7 +22,6 @@ export default function ChatHeader({
         <div className="flex-0 w-[100px]"></div>
         <div className="flex-1 flex justify-center items-center gap-2">
           <AILogo />
-          <p>{CHAT_HEADER}</p>
         </div>
         <div className="flex-0 w-[100px] flex justify-end items-center">
           <Button
